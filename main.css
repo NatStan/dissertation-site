@@ -1,0 +1,53 @@
+* {
+	padding: 0;
+	margin: 5px;
+}
+#headerContainer { 
+	border: 1px solid black;
+	padding: 0px;
+	background-color: #B0D7D7;
+	max-width:100%;
+	max-height:100%;
+	overflow: hidden;
+} 
+body {
+	/* font-family: Arial, Verdana, sans-serif; */
+	font-family: Bahnschrift, sans-serif;
+	font-style: normal;
+	font-size: 100%;
+	background-color: #9D9694;
+}
+#main_body {
+	font-family: Bahnschrift Light, sans-serif;
+	padding: 20px 10px 20px 10px;
+	color: solid black;
+	border: 1px solid black;
+	text-align: left;
+	background-color: #B0D7D7;
+	font-size: 18px;
+	line-height: 30px;
+}
+#navbar {
+	padding: 20px 10px 20px 10px;
+	color: solid black;
+	border: 1px solid black;
+	text-align: center;
+	background-color: #B0D7D7; /* this section relates to the styling of the navbar, and was used early in the site's development to colour the bar in order to distinguish it from other elements. */
+}
+#copyrightDiv {
+	font-size: 16px;
+	position: fixed;
+	border: 1px solid black;
+	bottom: 0;
+	width: 98%; /* this style section serves to place the copyright div at the bottom of the page.*/
+	background-color: #B0D7D7;
+	padding: 10px 0px 10px 10px;
+}
+.navButton {
+	border: 1px solid black;
+	padding: 8px 8px 8px 8px;
+	color: black;
+	font: bold 100px;
+	text-decoration: none;
+	background-color: #97BDC9;
+}

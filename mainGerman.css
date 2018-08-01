@@ -1,0 +1,58 @@
+* {
+	padding: 0;
+	margin: 5px;
+}
+body {
+	/* font-family: Arial, Verdana, sans-serif; */
+	font-family: Bahnschrift, sans-serif;
+	font-style: normal;
+	font-size:100%;
+	background-color: #9D9694;
+}
+#headerContainer { 
+	border: 1px solid black;
+	padding: 0px;
+	background-color: #B0D7D7;
+	max-width:100%;
+	max-height:100%;
+	overflow: hidden;
+} 
+#main_body {
+	font-size: 19px;
+	padding: 20px 10px 20px 10px;
+	color: white;
+	border: 1px solid black;
+	text-align: center;
+	background-color: #B0D7D7;
+	background-image: url("germanlanguagearea.png");
+}
+#navbar {
+	padding: 20px 10px 20px 10px;
+	color: solid black;
+	border: 1px solid black;
+	text-align: center;
+	background-color: #B0D7D7; /* this section relates to the styling of the navbar, and was used early in the site's development to colour the bar in order to distinguish it from other elements. */
+}
+#copyrightDiv {
+	position: fixed;
+	border: 1px solid black;
+	bottom: 0;
+	width: 98%; /* this style section serves to place the copyright div at the bottom of the page.*/
+	background-color: #B0D7D7;
+	padding: 10px 0px 10px 10px;
+}
+.quizSelect {
+	border: 1px solid black;
+	padding: 6px 6px 6px 6px;
+	color: black;
+	font: bold 100px;
+	text-decoration: none;
+}
+.navButton {
+	border: 1px solid black;
+	padding: 8px 8px 8px 8px;
+	color: black;
+	font: bold 100px;
+	text-decoration: none;
+	background-color: #97BDC9;
+}

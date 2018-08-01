@@ -1,0 +1,79 @@
+* {
+	padding: 0;
+	margin: 5px;
+}
+body {
+	/* font-family: Arial, Verdana, sans-serif; */
+	font-family: Bahnschrift, sans-serif;
+	font-style: normal;
+	font-size:20px;
+	background-color: #9D9694;
+	/*background-color: #900C3F;*/
+}
+#headerContainer { 
+	border: 1px solid black;
+	padding: 0px;
+	background-color: #B0D7D7;
+	max-width:100%;
+	max-height:100%;
+	overflow: hidden;
+} 
+h2 {
+	color: solid black;
+	text-align: center;
+}
+#main_body {
+	padding: 20px 10px 20px 10px;
+	font-size: 19px;
+	color: solid black;
+	border: 1px solid black;
+	text-align: center;
+	background-color: #B0D7D7;
+	background-image: url("frenchlanguagearea.png");
+}
+#questions {
+	font-family: Bahnschrift Light, sans-serif;
+	color: solid black;
+	text-align: left;
+	vertical-align: middle;
+	border: 1px solid black;
+	font-size: 17px;
+	letter-spacing: 1px;
+	background-color: #B0D7D7;
+}
+#returnToHomepage {
+	text-align: center;
+	color: solid black;
+	background-color: #B0D7D7;
+	border: 1px solid black;
+	padding: 10px 10px 10px 10px;
+}
+#userResults {
+	text-align: center; /* this was done to center the text, when the button is out of hover mode. */
+	background-color: #9D9694;  
+	border: 1px solid black;
+	padding: 10px 10px 10px 10px;
+}
+#userResults:hover { 
+	background-color: #B0D7D7;  
+	text-align: center; 
+	cursor: pointer; /* sets the pointer to be a cursor, so the user knows it's clickable */
+	border: 1px solid black;
+	padding: 10px 10px 10px 10px;
+} 
+#answer1, #answer2, #answer3, #answer4, #answer5 {
+	display: none;
+	border: none;
+}
+#closeAnswers {
+	display: none;
+	border: none;
+}
+.navButton {
+	border: 1px solid black;
+	padding: 8px 8px 8px 8px;
+	color: black;
+	font: bold 100px;
+	text-decoration: none;
+	background-color: #97BDC9;
+}
